@@ -25,7 +25,7 @@ add_files("ogn", ogn.nodes_path)
 
 add_cuda_dependencies()
 
-filter { "system:linux", "platforms:x86_64" }
+filter { "system:linux" }
 disablewarnings { "error=narrowing", "error=unused-but-set-variable", "error=unused-variable" }
 filter { "system:windows" }
 libdirs {

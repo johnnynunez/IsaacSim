@@ -56,7 +56,7 @@ extra_usd_libs = { "usdUtils", "usdGeom", "usdPhysics", "pcp" }
 add_usd(extra_usd_libs)
 -- End OpenUSD
 
-filter { "system:linux", "platforms:x86_64" }
+filter { "system:linux" }
 links { "tbb" }
 filter {}
 
