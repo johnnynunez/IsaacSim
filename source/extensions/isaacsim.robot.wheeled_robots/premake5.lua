@@ -24,7 +24,6 @@ project_ext_plugin(ext, "isaacsim.robot.wheeled_robots.plugin")
 add_files("impl", "plugins")
 add_files("ogn", ogn.nodes_path)
 
-filter { "system:linux", "platforms:x86_64" }
 disablewarnings { "error=narrowing", "error=unused-but-set-variable", "error=unused-variable" }
 filter { "system:windows" }
 libdirs {
