@@ -21,9 +21,9 @@ python_executable."platform:linux-x86_64".python_executable_path = "python3${exe
 python_executable."platform:linux-aarch64".python_executable_path = "python3${exe_ext}"
 python_executable."platform:windows-arm64".python_executable_path = "python${exe_ext}"
 python_executable."platform:windows-aarch64".python_executable_path = "python${exe_ext}"
-python_executable.packman_package_name = "python"
-python_executable.packman_package_version = "3.11.11+nv3-${platform}"
-python_executable.packman_link_path = "_repo/python/"
+#python_executable.packman_package_name = "python"
+#python_executable.packman_package_version = "3.11.11+nv3-${platform}"
+#python_executable.packman_link_path = "_repo/python/"
 
 ########################################################################################################################
 # Override VERSION File
